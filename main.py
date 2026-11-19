@@ -52,3 +52,5 @@ if __name__=="__main__":
 
 echo "# group-71-1-month3" >> README.md
 https://github.com/5aguma/group-71-1-month3.git
+https://github.com/5aguma/group-71-1-month3.git
+bsuqg65jyy4c7mg
