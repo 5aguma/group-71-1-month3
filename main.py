@@ -28,9 +28,21 @@ async def cmd_help(message: Message):
     )
 
 
+@dp.message(Command("about"))
+async def cmd_about(message: Message):
+    await message.answer(
+        "Это личный бот Сагадылдаева Умара."
+    )
+
+
 @dp.message(F.text.lower() == "группа")
 async def cmd_group(message: Message):
     await message.answer("Твоя группа 71-1!")
+
+
+@dp.message(F.text.lower() == "пока")
+async def cmd_group(message: Message):
+    await message.answer("До скорых встреч!")
 
     
 
@@ -50,7 +62,3 @@ if __name__=="__main__":
     logging.basicConfig(level=logging.INFO)
     asyncio.run(main())
 
-echo "# group-71-1-month3" >> README.md
-https://github.com/5aguma/group-71-1-month3.git
-https://github.com/5aguma/group-71-1-month3.git
-bsuqg65jyy4c7mg
